@@ -26,7 +26,7 @@ let MyDate = function(day, month, year) {
 
 };
 
-const date = new MyDate(2, 2, 2007);
+let date = new MyDate(2, 2, 2007);
 let day = date.getDay();
 let month = date.getMonth();
 let year = date.getYear();
